@@ -1,4 +1,4 @@
-class stacks:
+class Stacks:
     def __init__(self, length):
         self.array = []
         self.stack_head = [None, None, None]
@@ -34,7 +34,7 @@ class stacks:
 
 
 # create a stack of known length
-test_stack = stacks(10)
+test_stack = Stacks(10)
 # create a tuple of data to push on stack
 data = [
     (1, 2),
